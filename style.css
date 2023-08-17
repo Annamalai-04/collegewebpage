@@ -1,0 +1,172 @@
+/* *{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+} */
+body{
+    background-image: url(Bharath_University_Logo.png), url(Bharath_University_Logo.png);
+    background-size: 150px 150px;
+    background-attachment: scroll;
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 5px;  
+   background-origin: content-box;
+}
+.nav{
+    margin-left: 100px;
+}
+ .nav ul{
+    list-style-type: none;
+    
+    padding-left: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+ .nav li{
+    float: left;
+    text-decoration: none;
+    background-color: black;
+}
+.nav li a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+}
+.nav li a:hover{
+    text-decoration: underline;
+    font-weight: 40em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+.notion{
+    width: 100%;
+    height: 50px;
+   text-align: center;
+    margin: 30px;
+}
+.notion p{
+    padding: 10px 10px;
+    text-transform: capitalizes;
+    font-size: 20px;
+    z-index: 10px;
+    
+   color: white;
+    animation: myanime 3s linear infinite;
+
+}
+@keyframes myanime {
+    0%{color: #eee5e5; }
+    20%{color: #c4f20d;}
+    40%{color: #0cc1e9;}
+    60%{color: #fd33d5;}
+    80%{color: #4df138;}
+    100%{color: #f06e6e;}
+}
+
+.article h3{
+text-align: center;
+background: linear-gradient(red,yellow,green);
+margin: 10px 0 10px 0;
+padding:10px 10px 10px 10px;
+border-radius: 20px;
+font-weight: 900;
+color: rgba(28, 4, 246, 0.4);
+}
+
+
+
+.container{
+    max-width: 1170px;
+    /* background-color: #0cc1e9; */
+    margin-bottom: 40px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+   
+    padding: 0 20px;
+    
+}
+.footer-col ul{
+    list-style: none;
+   
+    margin-top: 10px;
+}
+
+.footer-col h4{
+    font-size: 24px;
+    color: black;
+    text-transform: capitalize;
+  
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #4df138;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+   
+   
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+    color: #bbbbbb;
+    padding-left: 8px;
+}
+footer{
+    /* background-color: #4df138; */
+    padding: 70px 0;
+    
+}
+.terms .social-links{
+    margin: 20px 20px 20px 20px;
+    /* background-color: #24262b; */
+    padding:20px 40px 20px 290px
+}
+.terms .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    background-color: #ffffff;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    color: #bbbbbb;
+    transition: all 0.5s ease;
+}
+.terms .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+    
+}
+.terms p{
+   
+ text-align: center;
+}
